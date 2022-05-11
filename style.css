@@ -20,9 +20,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
-  /* position: relative;
-  top: 0; */
 }
 
 .center-box {
@@ -32,6 +29,8 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+/* Logo */
 
 .logo-box {
   padding: 1em 0;
@@ -43,6 +42,8 @@ body {
   margin: 0 auto;
 }
 
+/* Description */
+
 .description-box,
 .reservation-box {
   background-color: rgba(255, 255, 255, 0.637);
@@ -52,6 +53,50 @@ body {
 }
 
 .description-box {
+  border: 7px solid rgba(0, 0, 0, 0.781);
+}
+
+/* Form */
+
+.form-box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-group label,
+.form-group input,
+button {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+.form-group label {
+  background-color: rgba(51, 51, 51, 0.85);
+  color: #fff;
+  line-height: 1;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.4em;
+  text-transform: uppercase;
+}
+
+.form-group input {
+  line-height: 1.8;
+  margin-bottom: 0.7rem;
+}
+
+.form-box button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0.4em;
+  cursor: pointer;
+  margin-top: 0.9em;
+}
+
+.reservation-box p,
+.form-box button,
+.description-box {
   margin-bottom: 1em;
-  border: 7px solid #000;
 }
