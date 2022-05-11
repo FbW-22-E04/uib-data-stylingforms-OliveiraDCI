@@ -100,3 +100,12 @@ button {
 .description-box {
   margin-bottom: 1em;
 }
+
+/* Footer */
+
+.footer-box {
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  padding: 2em 0;
+}
