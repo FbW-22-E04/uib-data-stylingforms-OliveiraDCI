@@ -9,7 +9,14 @@ html {
 }
 
 body {
+  background-color: #000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+.container {
+  background-image: url(/images/background.jpg);
+  position: relative;
+  top: 0;
 }

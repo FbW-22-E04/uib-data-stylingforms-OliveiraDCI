@@ -4,7 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Pub Page - Data Form Styling</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container">
+      <div>
+        <img src="./images/logo.png" alt="El amigo logo" />
+      </div>
+
+      <div>
+        <h1>The Best Craft Beer in Spain!</h1>
+        <p>
+          Bienvenido, amigos! We are completely fictional location. But does
+          that mean we can't imagine the best beer in Spain!
+        </p>
+      </div>
+
+      <div>
+        <h2>Make a reservation</h2>
+        <p>Get your spot before somebody else does!</p>
+        <form action="#" method="post">
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="John B. Goode"
+          />
+          <label for="email">Your email</label>
+          <input type="email" name="email" id="email" />
+          <label for="reservation">Reservation time</label>
+          <input type="datetime" name="reservation" id="reservation" />
+          <button>Reserve Now</button>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
