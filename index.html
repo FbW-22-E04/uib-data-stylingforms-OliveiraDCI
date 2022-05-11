@@ -10,7 +10,7 @@
   <body>
     <main class="container">
       <div class="center-box logo-box">
-        <img src="./images/logo.png" alt="El amigo logo" />
+        <img class="logo-img" src="./images/logo.png" alt="El amigo logo" />
       </div>
 
       <div class="center-box description-box">
@@ -25,18 +25,27 @@
         <h2>Make a reservation</h2>
         <p>Get your spot before somebody else does!</p>
         <form class="form-box" action="#" method="post">
-          <label for="name">Your name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="John B. Goode"
-          />
-          <label for="email">Your email</label>
-          <input type="email" name="email" id="email" />
-          <label for="reservation">Reservation time</label>
-          <input type="datetime" name="reservation" id="reservation" />
-          <button>Reserve Now</button>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="John B. Goode"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="reservation">Reservation time</label>
+            <input type="datetime" name="reservation" id="reservation" />
+          </div>
+
+          <button type="submit">Reserve Now</button>
         </form>
       </div>
     </main>

@@ -17,12 +17,41 @@ body {
 
 .container {
   background-image: url(/images/background.jpg);
-  position: relative;
-  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  /* position: relative;
+  top: 0; */
 }
 
 .center-box {
   width: 70%;
-  min-width: 400px;
+  max-width: 500px;
+  min-width: 300px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.logo-box {
+  padding: 1em 0;
+}
+
+.logo-img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.description-box,
+.reservation-box {
+  background-color: rgba(255, 255, 255, 0.637);
+  text-align: center;
+  color: rgba(51, 51, 51, 0.829);
+  padding: 1em;
+}
+
+.description-box {
+  margin-bottom: 1em;
+  border: 7px solid #000;
 }
