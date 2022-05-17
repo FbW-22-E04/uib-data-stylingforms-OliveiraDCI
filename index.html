@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pub Page - Data Form Styling</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="center-box logo-box">
+        <img class="logo-img" src="./images/logo.png" alt="El amigo logo" />
+      </div>
+
+      <div class="center-box description-box">
+        <h1>The Best Craft Beer in Spain!</h1>
+        <p>
+          Bienvenido, amigos! We are completely fictional location. But does
+          that mean we can't imagine the best beer in Spain!
+        </p>
+      </div>
+
+      <div class="center-box reservation-box">
+        <h2>Make a reservation</h2>
+        <p>Get your spot before somebody else does!</p>
+        <form class="form-box" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder=" John B. Goode"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" john@goode.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="reservation">Reservation time</label>
+            <input type="datetime-local" name="reservation" id="reservation" />
+          </div>
+
+          <button type="submit"><i>Reserve Now</i></button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="center-box footer-box">
+      &copy; 2022 El Amigo - created by Oliveira, DCI student.
+    </footer>
+  </body>
+</html>
